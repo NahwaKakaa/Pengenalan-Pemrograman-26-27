@@ -20,7 +20,8 @@ program
 *.dSYM/
 
 # Editor / IDE
-.vscode/
+.vscode/*
+!.vscode/tasks.json
 .idea/
 *.swp
 .DS_Store
