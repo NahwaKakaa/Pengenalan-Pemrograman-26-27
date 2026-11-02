@@ -1,0 +1,27 @@
+# Hasil compile
+*.o
+*.obj
+*.exe
+*.out
+*.app
+a.out
+program
+
+# Library
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Debug
+*.pdb
+*.ilk
+*.dSYM/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
