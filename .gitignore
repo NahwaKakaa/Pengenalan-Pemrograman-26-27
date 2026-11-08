@@ -26,3 +26,6 @@ program
 *.swp
 .DS_Store
 Thumbs.db
+
+# Program hasil compile untuk dibagikan
+bin/
