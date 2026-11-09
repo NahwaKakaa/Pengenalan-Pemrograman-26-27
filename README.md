@@ -23,6 +23,8 @@ Seluruh kode ditulis menggunakan **C++**.
 
 Setiap folder modul ada di dalam `studi-kasus/` dan `evaluasi-praktikum/`.
 
+**File `.exe` Modul 7:** setiap program Modul 7 juga tersedia dalam versi Windows (`.exe`) di samping file `.cpp`-nya. File ini bisa langsung dijalankan di Windows 64-bit tanpa memasang compiler.
+
 ## Catatan
 
 - Stambuk disimpan sebagai `string` (atau `long long`), karena angka 11 digit melebihi batas tipe `int`.

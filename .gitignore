@@ -29,3 +29,7 @@ Thumbs.db
 
 # Program hasil compile untuk dibagikan
 bin/
+
+# Pengecualian: file .exe Modul 7 memang disertakan untuk dibagikan
+!studi-kasus/modul-07-procedure/*.exe
+!evaluasi-praktikum/modul-07-procedure/*.exe
