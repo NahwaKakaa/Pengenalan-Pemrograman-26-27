@@ -8,7 +8,8 @@ Seluruh kode ditulis menggunakan **C++**.
 ```
 .
 ├── studi-kasus/          # Langkah praktikum (programN_*.cpp) per modul
-└── evaluasi-praktikum/   # Lembar evaluasi (soalN_*.cpp + jawaban.md untuk soal teori)
+├── evaluasi-praktikum/   # Lembar evaluasi (soalN_*.cpp + jawaban.md untuk soal teori)
+└── Asistensi/            # Kunci jawaban ujian asistensi
 ```
 
 | Modul | Materi | Folder |
@@ -23,6 +24,10 @@ Seluruh kode ditulis menggunakan **C++**.
 | 8 | Function | `modul-08-function` |
 
 Setiap folder modul ada di dalam `studi-kasus/` dan `evaluasi-praktikum/`.
+
+| Asistensi | Materi | File |
+|---|---|---|
+| II | Modul 5 – 8: Bank Sampah "UMI Hijau" (for, while/do-while, procedure, function) | `Asistensi/AsistensiII.cpp` |
 
 **File `.exe` Modul 7 dan 8:** setiap program Modul 7 dan 8 juga tersedia dalam versi Windows (`.exe`) di samping file `.cpp`-nya. File ini bisa langsung dijalankan di Windows 64-bit tanpa memasang compiler.
 
