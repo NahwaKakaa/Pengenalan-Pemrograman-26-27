@@ -22,6 +22,7 @@ Seluruh kode ditulis menggunakan **C++**.
 | 6 | Perulangan While & Do-While | `modul-06-perulangan-while-do-while` |
 | 7 | Procedure | `modul-07-procedure` |
 | 8 | Function | `modul-08-function` |
+| 9 | Array | `modul-09-array` |
 
 Setiap folder modul ada di dalam `studi-kasus/` dan `evaluasi-praktikum/`.
 
@@ -29,7 +30,7 @@ Setiap folder modul ada di dalam `studi-kasus/` dan `evaluasi-praktikum/`.
 |---|---|---|
 | II | Modul 5 – 8: Bank Sampah "UMI Hijau" (for, while/do-while, procedure, function) | `Asistensi/AsistensiII.cpp` |
 
-**File `.exe` Modul 7 dan 8:** setiap program Modul 7 dan 8 juga tersedia dalam versi Windows (`.exe`) di samping file `.cpp`-nya. File ini bisa langsung dijalankan di Windows 64-bit tanpa memasang compiler.
+**File `.exe` Modul 7 – 9:** setiap program Modul 7, 8, dan 9 juga tersedia dalam versi Windows (`.exe`) di samping file `.cpp`-nya. File ini bisa langsung dijalankan di Windows 64-bit tanpa memasang compiler.
 
 ## Catatan
 
@@ -41,7 +42,7 @@ Setiap folder modul ada di dalam `studi-kasus/` dan `evaluasi-praktikum/`.
 - Modul 7 Evaluasi 4: harga paket tidak disebutkan di modul. Dipakai asumsi Harian Rp10.000, Mingguan Rp50.000, dan Bulanan Rp150.000.
 - Modul 8 Program 2: input dibaca sebagai `string` lalu diubah dengan `stod()`, dan hasil ditampilkan lewat `to_string()`. Faktorial dibatasi 0–12 karena 13! melebihi kapasitas `int`.
 - Modul 8 Program 3 dan Evaluasi 3: array belum dibahas, jadi setiap function memperbarui hasil sementara (total, min, max, genap, ganjil) setiap kali satu bilangan diinput.
-- Modul 8 Program 4: harga barang tidak disebutkan di modul. Dipakai asumsi (beli/jual) Buku Rp4.000/Rp5.000, Pensil Rp1.500/Rp2.000, Pulpen Rp2.500/Rp3.500, Penghapus Rp1.000/Rp1.500.
+- Modul 8 Program 4: harga barang tidak disebutkan di Modul 8, jadi dipakai daftar harga dari Modul 9 Program 5 (beli/jual): Buku Rp7.000/Rp10.000, Pensil Rp3.000/Rp5.000, Pulpen Rp5.000/Rp7.500, Penghapus Rp2.500/Rp4.000.
 - Modul 8 Evaluasi 1: aturan lembur tidak disebutkan. Dipakai asumsi jam normal 40 jam, kelebihannya dibayar 1,5 × tarif per jam.
 - Modul 8 Evaluasi 2: tarif tidak disebutkan. Dipakai tarif blok bertingkat Rp1.000/kWh (100 kWh pertama), Rp1.500/kWh (101–200), Rp2.000/kWh (di atas 200), ditambah administrasi Rp5.000.
 - Modul 8 Evaluasi 5: besar diskon tidak disebutkan. Dipakai asumsi diskon belanja 10% (≥ Rp500.000) atau 5% (≥ Rp250.000), ditambah diskon member 5%.
@@ -56,3 +57,7 @@ g++ -std=c++17 -Wall -o program main.cpp
 ./program        # Linux / macOS
 program.exe      # Windows
 ```
+- Modul 9 Program 2: indeks yang ditampilkan dimulai dari 0, sesuai contoh output modul.
+- Modul 9 Program 3: array diberi nama `angka` karena nama `data` bentrok dengan `std::data` saat memakai `using namespace std` di C++17.
+- Modul 9 Program 4, Program 3, Evaluasi 3, dan Evaluasi 5: jumlah data tidak dibatasi di modul, sedangkan array butuh ukuran tetap. Dipakai batas maksimal 50.
+- Modul 9 Evaluasi 6: dibuat langsung versi akhir dengan pilihan switch-case (geser ke kanan / ke kiri), yang sudah mencakup tahap geser ke kanan.

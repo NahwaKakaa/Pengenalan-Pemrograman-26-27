@@ -4,12 +4,12 @@
 //   Modal      = Harga Beli x Jumlah Barang
 //   Keuntungan = Subtotal - Modal
 //
-// Harga beli dan harga jual tidak disebutkan di modul, jadi dipakai asumsi:
+// Harga barang mengikuti daftar barang di Modul 9 Program 5:
 //   Kode  Barang      Harga Beli   Harga Jual
-//   1     Buku        Rp4.000      Rp5.000
-//   2     Pensil      Rp1.500      Rp2.000
-//   3     Pulpen      Rp2.500      Rp3.500
-//   4     Penghapus   Rp1.000      Rp1.500
+//   1     Buku        Rp7.000      Rp10.000
+//   2     Pensil      Rp3.000      Rp5.000
+//   3     Pulpen      Rp5.000      Rp7.500
+//   4     Penghapus   Rp2.500      Rp4.000
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -38,10 +38,10 @@ double hargaBeli(int kode)
 {
     switch (kode)
     {
-    case 1: return 4000;
-    case 2: return 1500;
-    case 3: return 2500;
-    case 4: return 1000;
+    case 1: return 7000;
+    case 2: return 3000;
+    case 3: return 5000;
+    case 4: return 2500;
     default: return 0;
     }
 }
@@ -50,10 +50,10 @@ double hargaJual(int kode)
 {
     switch (kode)
     {
-    case 1: return 5000;
-    case 2: return 2000;
-    case 3: return 3500;
-    case 4: return 1500;
+    case 1: return 10000;
+    case 2: return 5000;
+    case 3: return 7500;
+    case 4: return 4000;
     default: return 0;
     }
 }
@@ -80,10 +80,10 @@ double hitungKeuntungan(int kode, int jumlah)
 void tampilMenu()
 {
     cout << "\n=========== MENU BARANG ===========" << endl;
-    cout << "1. Buku       (Rp5.000)" << endl;
-    cout << "2. Pensil     (Rp2.000)" << endl;
-    cout << "3. Pulpen     (Rp3.500)" << endl;
-    cout << "4. Penghapus  (Rp1.500)" << endl;
+    cout << "1. Buku       (Rp10.000)" << endl;
+    cout << "2. Pensil     (Rp5.000)" << endl;
+    cout << "3. Pulpen     (Rp7.500)" << endl;
+    cout << "4. Penghapus  (Rp4.000)" << endl;
     cout << "5. Selesai" << endl;
     cout << "===================================" << endl;
     cout << "Pilih barang : ";
