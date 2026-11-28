@@ -28,7 +28,8 @@ Setiap folder modul ada di dalam `studi-kasus/` dan `evaluasi-praktikum/`.
 
 | Asistensi | Materi | File |
 |---|---|---|
-| II | Modul 5 – 8: Bank Sampah "UMI Hijau" (for, while/do-while, procedure, function) | `Asistensi/AsistensiII.cpp` |
+| II | Modul 5 – 8: Bank Sampah "UMI Hijau" (for, while/do-while, procedure, function), stambuk ganjil | `Asistensi/AsistensiII_Ganjil.cpp` |
+| II | Modul 5 – 8: Bank Sampah "UMI Hijau", stambuk genap (menu dan angka berbeda) | `Asistensi/AsistensiII_Genap.cpp` |
 
 **File `.exe` Modul 7 – 9:** setiap program Modul 7, 8, dan 9 juga tersedia dalam versi Windows (`.exe`) di samping file `.cpp`-nya. File ini bisa langsung dijalankan di Windows 64-bit tanpa memasang compiler.
 

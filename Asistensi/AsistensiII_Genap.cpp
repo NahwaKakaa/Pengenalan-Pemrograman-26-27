@@ -1,4 +1,4 @@
-// Asistensi II - Kunci Jawaban Ujian Asistensi Modul 5-8: Bank Sampah "UMI Hijau"
+// Asistensi II (Stambuk Genap) - Kunci Jawaban Ujian Asistensi Modul 5-8: Bank Sampah "UMI Hijau"
 // Materi: for (Modul 5), while & do-while (Modul 6), procedure (Modul 7), function (Modul 8)
 #include <iostream>
 #include <string>
@@ -7,9 +7,9 @@ using namespace std;
 // ===== Function (Modul 8) =====
 int hargaPerKg(int kode)
 {
-    if (kode == 1) return 3000;      // Plastik
-    else if (kode == 2) return 2000; // Kertas
-    else return 8000;                // Logam
+    if (kode == 1) return 2500;      // Kardus
+    else if (kode == 2) return 1500; // Botol Kaca
+    else return 10000;               // Aluminium
 }
 
 int hitungNilai(int kode, int berat)  // memanggil hargaPerKg()
@@ -19,17 +19,17 @@ int hitungNilai(int kode, int berat)  // memanggil hargaPerKg()
 
 int hitungBonus(int total)
 {
-    if (total >= 50000)
-        return 5000;
+    if (total >= 60000)
+        return 6000;
     return 0;
 }
 
 // ===== Procedure (Modul 7) =====
 void tampilMenu()
 {
-    cout << "\n1. Plastik (Rp3.000/kg)" << endl;
-    cout << "2. Kertas  (Rp2.000/kg)" << endl;
-    cout << "3. Logam   (Rp8.000/kg)" << endl;
+    cout << "\n1. Kardus     (Rp2.500/kg)" << endl;
+    cout << "2. Botol Kaca (Rp1.500/kg)" << endl;
+    cout << "3. Aluminium  (Rp10.000/kg)" << endl;
     cout << "4. Selesai" << endl;
     cout << "Pilihan : ";
 }
